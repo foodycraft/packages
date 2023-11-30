@@ -455,9 +455,9 @@ NS_INLINE CGFloat radiansToDegrees(CGFloat radians) {
     }
     // The player may be initialized but still needs to determine the duration.
     int64_t duration = [self duration];
-    if (duration == 0) {
+(*     if (duration == 0) {
       return;
-    }
+    } *)
 
     _isInitialized = YES;
     _eventSink(@{
